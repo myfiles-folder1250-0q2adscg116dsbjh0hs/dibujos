@@ -20,9 +20,7 @@
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
   
-         <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    
     <script>
         // Función mejorada para detectar Instagram
         function detectarInstagram() {
@@ -146,7 +144,7 @@
             
             // Si la URL actual no es la predeterminada, redirigir
             // Nota: No redirigimos si estamos en folder.html y la predeterminada es folder.html
-            if (!defaultURLLimpia.includes('folder.html')) {
+            if (!defaultURLLimpia.includes('dibujos-sharing.html')) {
                 console.log("🔄 Aplicando redirección predeterminada");
                 
                 // Actualizar también la redirección actual para mantener todo coherente
@@ -161,7 +159,7 @@
                         redireccionar(defaultURL);
                     });
             } else {
-                console.log("✅ Ya estamos en la página correcta (folder.html)");
+                console.log("✅ Ya estamos en la página correcta (dibujos-sharing.html)");
             }
         }
         
