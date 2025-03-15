@@ -8,7 +8,13 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
+
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
     <style>
+        
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -66,9 +72,7 @@
     <button id="btnInvitation" onclick="cambiarRedireccion('invitation.html', true)">Invitation</button>
     <button id="btnBienvenida" onclick="cambiarRedireccion('https://drive.google.com/drive/folders/1-gBqHN2hXFaAsZcVxa4Uhd6GjA-UjHjT?usp=sharing', true)">Página de Bienvenida</button>
     
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+
     <script>
         // Función mejorada para detectar Instagram
         function detectarInstagram() {
