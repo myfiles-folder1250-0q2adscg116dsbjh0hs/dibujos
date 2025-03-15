@@ -145,8 +145,8 @@
             console.log("URL Default:", defaultURLLimpia);
             
             // Si la URL actual no es la predeterminada, redirigir
-            // Nota: No redirigimos si estamos en folder.html y la predeterminada es folder.html
-            if (!defaultURLLimpia.includes('folder.html')) {
+            // Nota: No redirigimos si estamos en dibujos-sharing.html y la predeterminada es dibujos-sharing.html
+            if (!defaultURLLimpia.includes('dibujos-sharing.html')) {
                 console.log("🔄 Aplicando redirección predeterminada");
                 
                 // Actualizar también la redirección actual para mantener todo coherente
@@ -161,7 +161,7 @@
                         redireccionar(defaultURL);
                     });
             } else {
-                console.log("✅ Ya estamos en la página correcta (folder.html)");
+                console.log("✅ Ya estamos en la página correcta (dibujos-sharing.html)");
             }
         }
         
